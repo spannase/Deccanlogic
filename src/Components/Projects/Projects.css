@@ -1,0 +1,63 @@
+.projects {
+  /* border:1px solid black; */
+  padding: 30px 5% ;
+  margin: 0 20px 0 10px;
+}
+
+.projects > h1 {
+  margin: 0;
+}
+
+.project-divs {
+  display: flex; 
+  gap: 20px;
+  justify-content: center; 
+}
+
+.project-divs > div { 
+  width: 25%;
+  height: 150px;
+}
+.project-divs > div > img {
+  width: 100%;
+  height: 100%;
+}
+.about-project{  
+  margin:10px 150px 30px;
+}
+
+@media (max-width: 767.98px) {
+.about-project{
+  margin: 10px 0 20px 0;
+}
+.project-divs  {
+  flex-wrap: wrap; 
+}
+.project-divs>div{
+  width: 200px;
+  height: 130px;
+}
+}
+
+
+.project-btn{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+}
+
+.project-btn>button{
+  background-color: white; 
+  font-size: medium;
+  padding: 1%  4%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.project-btn>button:nth-child(1n){
+  border:2px solid rgb(0, 0, 0);
+  color: black;
+}
+.project-btn>button:nth-child(2n){
+  border:2px solid rgba(255, 166, 1, 0.993);
+  color: rgba(255, 166, 1, 0.993);
+}
